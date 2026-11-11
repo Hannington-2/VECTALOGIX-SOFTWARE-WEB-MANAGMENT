@@ -165,7 +165,7 @@ const Nav = () => {
             className="flex w-full justify-center rounded-md bg-blue-600 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 transition-colors whitespace-nowrap"
             onClick={() => setIsOpen(false)}
           >
-            Get Started
+            Book a Consultation
           </NavLink>
         </div>
       </div>
