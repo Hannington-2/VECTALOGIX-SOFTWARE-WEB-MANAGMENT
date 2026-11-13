@@ -1,0 +1,9 @@
+{
+  "name": "vectalogix-website",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "cd frontend && npm install && npm run dev -- --host 0.0.0.0",
+    "preview": "cd frontend && npm run preview -- --host 0.0.0.0"
+  }
+}
