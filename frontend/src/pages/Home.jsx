@@ -1,11 +1,12 @@
 
 
-import React from 'react';
+// import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiActivity, FiTool, FiShield, FiAward, FiArrowRight, FiCode, FiGrid, FiBriefcase, FiMonitor, FiSmartphone, FiZap, FiDatabase, FiLayout, FiMapPin, FiCloud } from "react-icons/fi";
 import { FaReact, FaNodeJs, FaPython, FaAws, FaDatabase as FaDbIcon, FaJava, FaVuejs, FaDocker, FaCode as FaCodeIcon, FaPaintBrush, FaChartLine } from "react-icons/fa";
 
 const Home = () => {
+  // hero data cards
   const cardsData = [
     {
       icon: <FiActivity />,
@@ -28,7 +29,7 @@ const Home = () => {
       description: "We are not just a software development company, we are your long-term technology partner, committed to helping you achieve your business goals.",
     }
   ];
-
+// auto scroll array
   const techStack = [
     { name: "React", icon: <FaReact /> },
     { name: "Node.js", icon: <FaNodeJs /> },
@@ -39,14 +40,14 @@ const Home = () => {
     { name: "Vue.js", icon: <FaVuejs /> },
     { name: "Docker", icon: <FaDocker /> },
   ];
-
+// about array
   const aboutList = [
     { icon: <FaCodeIcon />, text: "Software engineering and system architecture" },
     { icon: <FaPaintBrush />, text: "Product and interface design" },
     { icon: <FaChartLine />, text: "Business analysis and process mapping" },
   ];
 
-  
+  // srvices array
   const allServices = [
     {
       icon: <FiCode />,
@@ -55,8 +56,8 @@ const Home = () => {
     },
     {
       icon: <FiMonitor />,
-      title: "Web Application Development",
-      description: "Client portals, dashboards and internal tools that are fast and dependable under real daily use."
+      title: "Engine Optimization",
+      description: "Improve the performance and efficiency of your existing software systems     ."
     },
     {
       icon: <FiGrid />,
@@ -116,9 +117,9 @@ const Home = () => {
         `}
       </style>
 
-      {/* ========================================= */}
+      
       {/* SECTION 1: HERO (Removed CTA buttons) */}
-      {/* ========================================= */}
+      
       <section 
         className="relative w-full min-h-screen bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/images/hero-background-home-page.avif')" }}
@@ -135,7 +136,7 @@ const Home = () => {
               Technology that moves <br className="hidden sm:block" /> your business forward
             </h1>
             <p className="mt-6 text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-              Four commitments we hold on every engagement, whether it is a first prototype or a system running operations across several countries.
+              For commitments we hold on every engagement, whether it is a first prototype or a system running operations across several countries.
             </p>
           </div>
 
@@ -177,9 +178,9 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ========================================= */}
+    
       {/* SECTION 2: ABOUT VECTALOGIX */}
-      {/* ========================================= */}
+      
       <section id="about" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -227,9 +228,9 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ========================================= */}
+   
       {/* SECTION 3: OUR SERVICES (Only shows first 4) */}
-      {/* ========================================= */}
+  
       <section id="services" className="py-24 bg-gray-50 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
@@ -295,9 +296,9 @@ const Home = () => {
         </div> 
       </section>
 
-      {/* ========================================= */}
+   
       {/* SECTION 4: HOW WE WORK */}
-      {/* ========================================= */}
+      
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -367,7 +368,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* ========================================= */}
+      
       {/* SECTION 5: BLUE CTA BANNER */}
       {/* ========================================= */}
       <section className="pb-24 pt-8 bg-white">
